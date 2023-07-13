@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *main - Prints hello world 
- *Return: 0 to print the statement
+ * main -statring point
+ *
+ * Return: 0
  */
 int main(void)
 {
