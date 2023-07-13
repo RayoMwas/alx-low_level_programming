@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *main - Prints hello world 
- *
  *Return: 0 to print the statement
  */
 int main(void)
