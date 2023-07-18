@@ -7,7 +7,7 @@ void print_alphabet_x10(void)
 	char lower;
 	int counter;
 
-	for (counter = 1; counter <= 11; counter++)
+	for (counter = 1; counter <= 10; counter++)
 	{
 		if (counter > 1)
 		{
