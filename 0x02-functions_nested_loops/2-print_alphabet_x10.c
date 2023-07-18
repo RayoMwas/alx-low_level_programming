@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 
 	for (counter = 0; counter < 10; counter++)
 	{
-		if (counter > 0)
+		if (counter > 0 && counter < 10)
 		{
 			_putchar('\n');
 		}
