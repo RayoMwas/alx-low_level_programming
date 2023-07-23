@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_sign - checks if a no. is -ve or +ve or 0
  * @n: stores the no.
@@ -11,18 +12,18 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
-		return ('+');
 	}
 	else if (n == 0)
 	{
+		_putchar('0');
 		return (0);
-		return ('0');
 	}
 	else
 	{
+		_putchar('-');
 		return (-1);
-		return ('-');
 	}
 	return (0);
 }
