@@ -2,7 +2,6 @@
 /**
  * jack_bauer - prints all the min in 24 hours
  */
-int _putchar(char c);
 void jack_bauer(void)
 {
 	int hour, min;
