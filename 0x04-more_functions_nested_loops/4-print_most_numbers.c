@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _putchar - prints single charactes
  * @c: single character
