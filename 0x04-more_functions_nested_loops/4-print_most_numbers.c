@@ -21,4 +21,5 @@ void print_most_numbers(void)
 		}
 	}
 	_putchar('\n');
+/* This is just but a stupid random comment */
 }
