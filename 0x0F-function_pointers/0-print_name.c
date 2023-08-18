@@ -1,16 +1,11 @@
 #include "function_pointers.h"
-int _putchar(char c);
 /**
- * print_name - prints the exact name
- * @name: an array of characters
- * @f: pointer to a function
- * @*: characters
+ * print_name - prints a name
+ * @name: pointer storing an array of characters
+ * @f: - function pointer
  *
- * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (!name || !f)
-		return;
 	f(name);
 }
