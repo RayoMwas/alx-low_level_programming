@@ -1,1 +1,1 @@
-This folder contains practice exercises for Function Pointers project
+This project contains practice files for function pointers
