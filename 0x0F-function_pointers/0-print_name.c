@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+int _putchar(char c);
 /**
  * print_name - prints the exact name
  * @name: an array of characters
