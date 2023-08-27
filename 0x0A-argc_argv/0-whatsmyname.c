@@ -7,18 +7,8 @@
  *
  * Return: name of the program
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (argc > 0)
-	{
-		char *program_name = argv[0];
-		char *last_slash = strrchr(program_name, '/');
-
-		if (last_slash != NULL)
-		{
-			program_name = last_slash + 1;
-		}
-		printf("%s\n", program_name);
-	}
+	printf("%s\n", *argv);
 	return (0);
 }
